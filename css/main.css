@@ -13,6 +13,7 @@ a:first-child {
   color: #8f2440;
   font-weight: normal;
   text-decoration: inherit;
+  font-size: 1.125rem;
 }
 
 a:hover {
@@ -33,7 +34,11 @@ ol li {
 }
 
 blockquote p {
-  line-height: 1.4;
+  line-height: 1.5;
   font-size: 1.5rem;
   font-family: "PT serif", serif;
+}
+
+h2 {
+  color:#3f1622;
 }
