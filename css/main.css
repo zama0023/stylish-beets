@@ -19,3 +19,11 @@ a:hover {
 img {
   width: 50%;
 }
+
+h1 {
+  font-family:"PT Sans", sans-serif;
+}
+
+ol li {
+  font-family: "PT Sans", sans-serif;
+}
