@@ -3,6 +3,10 @@ html {
   font-family: "PT Serif", serif;
 }
 
+p time {
+  font-size: 1.5rem;
+}
+
 h1 {
   font-size: 1.5rem;
   font-weight: normal;
