@@ -3,10 +3,19 @@ html {
   font-family: "PT Serif", serif;
 }
 
-nav ol li a:first-child {
+h1 {
+  font-size: 1.5rem;
+}
+
+a,
+a:first-child {
   color: #8f2440;
 }
 
-nav ol li a:hover {
+a:hover {
   color: #222;
+}
+
+img {
+  width: 50%;
 }
