@@ -5,19 +5,23 @@ html {
 
 h1 {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 a,
 a:first-child {
   color: #8f2440;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 
 a:hover {
-  color: #222;
+  color: #3f1622;
+  text-decoration: inherit;
 }
 
 img {
-  width: 50%;
+  width: 100%;
 }
 
 h1 {
@@ -26,4 +30,10 @@ h1 {
 
 ol li {
   font-family: "PT Sans", sans-serif;
+}
+
+blockquote p {
+  line-height: 1.4;
+  font-size: 1.5rem;
+  font-family: "PT serif", serif;
 }
