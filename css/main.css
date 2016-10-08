@@ -2,3 +2,11 @@ html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
 }
+
+nav ol li a:first-child {
+  color: #8f2440;
+}
+
+nav ol li a:hover {
+  color: #222;
+}
