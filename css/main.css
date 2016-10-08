@@ -3,6 +3,14 @@ html {
   font-family: "PT Serif", serif;
 }
 
+li.a {
+  list-style-type: none;
+}
+
+li.b {
+  list-style-type: lower-latin;
+}
+
 p time {
   font-size: 1.5rem;
 }
@@ -33,16 +41,27 @@ h1 {
   font-family:"PT Sans", sans-serif;
 }
 
-ol li {
-  font-family: "PT Sans", sans-serif;
-}
-
 blockquote p {
   line-height: 1.5;
   font-size: 1.5rem;
   font-family: "PT serif", serif;
+  font-style: italic;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+
 }
 
 h2 {
   color:#3f1622;
+}
+
+aside {
+  list-style-type: circle;
+}
+
+footer {
+  font-size: 0.8rem;
 }
