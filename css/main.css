@@ -3,12 +3,12 @@ html {
   font-family: "PT Serif", serif;
 }
 
-li.a {
-  list-style-type: none;
+.b {
+  list-style-type: lower-greek;
 }
 
-li.b {
-  list-style-type: lower-latin;
+.a {
+  list-style-type: none;
 }
 
 p time {
@@ -18,14 +18,17 @@ p time {
 h1 {
   font-size: 1.5rem;
   font-weight: normal;
+  font-family:"PT Sans", sans-serif;
 }
 
 a,
 a:first-child {
   color: #8f2440;
-  font-weight: normal;
+  font-weight: bolder;
+  font-family: "PT Sans", sans-serif;
   text-decoration: inherit;
   font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 a:hover {
@@ -35,10 +38,6 @@ a:hover {
 
 img {
   width: 100%;
-}
-
-h1 {
-  font-family:"PT Sans", sans-serif;
 }
 
 blockquote p {
@@ -59,10 +58,10 @@ h2 {
   color:#3f1622;
 }
 
-aside {
+ul {
   list-style-type: circle;
 }
 
-footer {
+footer a {
   font-size: 0.8rem;
 }
